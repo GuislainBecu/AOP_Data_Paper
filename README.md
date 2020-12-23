@@ -1,4 +1,4 @@
-# Data paper données radiométriques Takuvik et UQAR\\ --- document de travail ---
+# Data paper données radiométriques Takuvik et UQAR\ --- document de travail ---
 
 
 ## Liste des missions concernées
