@@ -1,7 +1,8 @@
-# Data paper données radiométriques Takuvik et UQAR\ --- document de travail ---
+# Data paper données radiométriques Takuvik et UQAR
+### document de travail
 
 
-## Liste des missions concernées
+## 1.Liste des missions concernées
 Les données des missions suivantes seront incluses dans la BdD
 * CASES2004?
 * Malina (2009)
@@ -17,7 +18,7 @@ Les données des missions suivantes seront incluses dans la BdD
 * Nunataryuk 2019 (“NUNAT2019”)
 
 
-## Données et métadonnées
+## 2.Données et métadonnées
 Les données radiométriques mesurées par le C-OPS (ou le IcePro ou SPMR) seront incluses dans la base de données. Il s’agit notamment de:
 profondeur z
 Ed(0+),
@@ -41,7 +42,7 @@ Les métadonnées associées suivantes seront également incluses:
 * commentaire.
 
 
-## Arborescence proposée
+## 3.Arborescence proposée
 Les données vont être regroupées par mission, avec un sous répertoire par année / édition, tel qu’illustré sur le schéma ci-dessous:
 
 <img src="https://user-images.githubusercontent.com/24660132/103030651-3d0ae800-452a-11eb-93ed-57e47672a960.png" width="23%"></img>
@@ -64,7 +65,7 @@ Les données incluses dans le fichier meta.txt seront les suivantes:
 On envisage de ne pas limiter ces données à la surface, mais d’y inclure aussi les données correspondantes aux différentes profondeurs d’échantillonnage. Pour cela, on va ajouter un paramètre commun aux fichiers profile.txt et discrete.txt: depth_id. Ce paramètre permettra de faire correspondre les données contenues dans le fichier discrete.txt à celles contenues dans le fichier profile.txt, même si les profondeurs correspondantes ne sont pas strictement les mêmes (elles pourraient varier de quelques mm ou cm, par exemple).
 
 
-## Liste “to-do”
+## 4.Liste “to-do”
 - [ ]  Les données C-OPS / IcePro ont normalement toutes été traitées. Il se peut que certaines soient à vérifier (quelques petites erreurs ont été vues récemment, par exemple un décalage de 4h pour certaines données GreenEdge, ou un mauvais offset en profondeur appliqué pour toute une mission)
 - [ ]  Rassembler toutes les données qui devront aller dans les fichiers discrete.txt
 - [ ]  homogénéiser les données C-OPS/IcePro si besoin
