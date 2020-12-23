@@ -45,7 +45,7 @@ Les métadonnées associées suivantes seront également incluses:
 ### 3. Arborescence proposée
 Les données vont être regroupées par mission, avec un sous répertoire par année / édition, tel qu’illustré sur le schéma ci-dessous:
 
-<img src="https://user-images.githubusercontent.com/24660132/103030651-3d0ae800-452a-11eb-93ed-57e47672a960.png" width="23%"></img>
+<img src="https://user-images.githubusercontent.com/24660132/103033697-0d131300-4531-11eb-94de-b38cad9ea17c.png" width="23%"></img> 
 
 Chaque sous répertoire correspondant à une édition annuelle d’une mission particulière contiendra un dernier sous-répertoire par station, et chacun de ces sous-répertoires contiendra les fichiers suivants:
 * `profile.txt` (données radiométriques le long de profils dans la colonne d’eau),
