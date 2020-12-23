@@ -1,20 +1,21 @@
-# Data paper données radiométriques Takuvik et UQAR
-# --- document de travail ---
+# Data paper données radiométriques Takuvik et UQAR\\ --- document de travail ---
+
 
 ## Liste des missions concernées
 Les données des missions suivantes seront incluses dans la BdD
-CASES2004?
-Malina (2009)
-ArcticNet 2011,
-ArcticNet 2013,
-Tara Polar Circle 2013,
-Subice 2014),
-Arcticnet 2014?  (belles données COPS)
-Green Edge 2015 (ice camp),
-Green Edge 2016 (ice camp, Amundsen/open water, Amundsen/ice stations),
-International PhD School 2018 (“IPS2018”),
-BaySys 2018 (jeu très complet)
-Nunataryuk 2019 (“NUNAT2019”)
+* CASES2004?
+* Malina (2009)
+* ArcticNet 2011,
+* ArcticNet 2013,
+* Tara Polar Circle 2013,
+* Subice 2014),
+* Arcticnet 2014?  (belles données COPS)
+* Green Edge 2015 (ice camp),
+* Green Edge 2016 (ice camp, Amundsen/open water, Amundsen/ice stations),
+* International PhD School 2018 (“IPS2018”),
+* BaySys 2018 (jeu très complet)
+* Nunataryuk 2019 (“NUNAT2019”)
+
 
 ## Données et métadonnées
 Les données radiométriques mesurées par le C-OPS (ou le IcePro ou SPMR) seront incluses dans la base de données. Il s’agit notamment de:
@@ -39,8 +40,11 @@ Les métadonnées associées suivantes seront également incluses:
 * nom de la station,
 * commentaire.
 
+
 ## Arborescence proposée
 Les données vont être regroupées par mission, avec un sous répertoire par année / édition, tel qu’illustré sur le schéma ci-dessous:
+
+<img src="https://user-images.githubusercontent.com/24660132/103030651-3d0ae800-452a-11eb-93ed-57e47672a960.png" width="23%"></img>
 
 Chaque sous répertoire correspondant à une édition annuelle d’une mission particulière contiendra un dernier sous-répertoire par station, et chacun de ces sous-répertoires contiendra les fichiers suivants:
 * `profile.txt` (données radiométriques le long de profils dans la colonne d’eau),
@@ -48,6 +52,7 @@ Chaque sous répertoire correspondant à une édition annuelle d’une mission p
 * `discrete.txt` (données non profilantes: CDOM, HyperSAS (?), SPM, etc.),
 * `surface.txt` (données HyperSAS (inclure Ed0+ C-OPS/SPMR ici?)).
 
+<img src="https://user-images.githubusercontent.com/24660132/103030653-3da37e80-452a-11eb-8cbe-6f0775aa715b.png" width="23%"></img> 
 
 Les données incluses dans le fichier meta.txt seront les suivantes:
 * Pigments (HPLC),
@@ -66,13 +71,3 @@ On envisage de ne pas limiter ces données à la surface, mais d’y inclure aus
 - [ ]  homogénéiser les métadonnées
 - [ ]  créer le paramètre depth_id et le populer
 - [ ]  produire quelques graphiques de contrôle
-
-
-
-
-
-
-<img src="https://user-images.githubusercontent.com/24660132/103030651-3d0ae800-452a-11eb-93ed-57e47672a960.png" width="23%"></img>
-
-
-<img src="https://user-images.githubusercontent.com/24660132/103030653-3da37e80-452a-11eb-8cbe-6f0775aa715b.png" width="23%"></img> 
