@@ -68,7 +68,7 @@ On envisage de ne pas limiter ces données à la surface, mais d’y inclure aus
 ### 4. Liste “to-do”
 - [ ]  Les données C-OPS / IcePro ont normalement toutes été traitées. Il se peut que certaines soient à vérifier (quelques petites erreurs ont été vues récemment, par exemple un décalage de 4h pour certaines données GreenEdge, ou un mauvais offset en profondeur appliqué pour toute une mission)
 - [ ]  Rassembler toutes les données qui devront aller dans les fichiers `discrete.txt`,
-- [ ]  homogénéiser les données C-OPS/IcePro si besoin,
+- [ ]  homogénéiser les données C-OPS/IcePro si besoin (retraiter les plus anciennes pour inclure les dévelopements récents ou oublis (auto-ombrage pas forcément toujours corrigé, extrapolation de LuZ modifiée par Simon récemment, etc.)?),
 - [ ]  homogénéiser les métadonnées,
 - [ ]  créer le paramètre depth_id et le populer,
 - [ ]  produire quelques graphiques de contrôle.
